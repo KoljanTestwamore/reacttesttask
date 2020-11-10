@@ -1,0 +1,57 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.hint {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    width: max-content;
+    padding: 3px 7px;
+    font-style: normal;
+    font-weight: normal;
+    color: #4A4A4A;
+    margin-top: -20px;
+}
+
+.error {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    width: max-content;
+    padding: 3px 7px;
+    font-style: normal;
+    font-weight: normal;
+    color: #750e0e;
+    margin-top: -20px;
+}
+
+.inputGroup {
+    width: 100%;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.inputGroup > input {
+    width: 403px;
+    height: 35px;
+
+    background: #FDFDFD;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding-left: 8px;
+
+}
+
+.inputGroup > button {
+    width: 117px;
+    height: 35px;
+    margin-left: 11px;
+    background: #63C556;
+    border: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
