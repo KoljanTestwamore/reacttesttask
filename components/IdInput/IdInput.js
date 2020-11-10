@@ -30,7 +30,7 @@ export default function IdInput(props) {
   function handleSend() {
     if ((input.length >= 20)
       && (input.length <= 25)) {
-      props.id = input;
+      props.setId(input);
       setHintMessage("");
     } else {
       setErrorMessage("УИН должен содержать от 20 до 25 цифр");

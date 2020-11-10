@@ -1,8 +1,3 @@
-.mainContainer {
-    display: flex;
-    flex-direction: column;
-}
-
 .hint {
     background: #FFFFFF;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -11,7 +6,8 @@
     font-style: normal;
     font-weight: normal;
     color: #4A4A4A;
-    margin-top: -20px;
+    top: 40px;
+    position: absolute;
 }
 
 .error {
@@ -22,13 +18,15 @@
     font-style: normal;
     font-weight: normal;
     color: #750e0e;
-    margin-top: -20px;
+    position: absolute;
+    top: 40px;
 }
 
 .inputGroup {
     width: 100%;
     display: flex;
     margin-bottom: 0;
+    position: relative;
 }
 
 .inputGroup > input {

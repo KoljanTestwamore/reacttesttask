@@ -71,7 +71,6 @@ export default function TableById(props) {
     },{
       code: "amount_to_pay",
       value: "Осталось заплатить",
-      modifier: (value) => value ? value : null
     }].map(el =>
       items[el.code] && <tr key={el.code}>
         <td>
