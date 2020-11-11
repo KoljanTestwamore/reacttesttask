@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./IdInput.module.css";
+import styles from "../styles/IdInput.module.css";
 
 export default function IdInput(props) {
   function countCheckNumber(number) {

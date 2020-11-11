@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from "./TableById.module.css";
+import styles from "../styles/TableById.module.css";
 
 export default function TableById(props) {
   const id = props.id;

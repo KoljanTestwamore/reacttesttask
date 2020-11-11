@@ -1,8 +1,8 @@
-import TableById from "../TableById/TableById";
-import IdInput from "../IdInput/IdInput";
+import TableById from "./TableById";
+import IdInput from "./IdInput";
 import React, { useState } from "react";
 
-import styles from "./MainContainer.module.css";
+import styles from "../styles/MainContainer.module.css";
 
 export default function MainContainer() {
   const [id, setId] = useState();
